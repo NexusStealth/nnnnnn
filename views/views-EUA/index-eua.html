@@ -1,0 +1,96 @@
+<!-- views/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexuStealth</title> <!--titulo da pagina e nao oq fica no site-->
+  <link rel="stylesheet" href="/css/styles.css"> <!-- Link para o CSS -->
+  <style>
+/* styles.css */
+
+/* Define o fundo preto e o texto verde, estilo de fonte hacker */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000; /* Cor de fundo preta */
+    color: #0f0; /* Cor do texto verde hack */
+    font-family: monospace; /* Fonte estilo hacker */
+    font-size: 18px; /* Tamanho médio do texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove a margem padrão */
+}
+
+/* Container que ocupa toda a tela */
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 18px; /* Tamanho médio do texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove a margem padrão */
+}
+
+/* Estilo dos números que vão rolar */
+.scrolling-numbers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    white-space: nowrap;
+    animation: scroll 5s linear infinite;
+}
+
+/* Estilo de cada número */
+.number {
+    line-height: 1.5;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+/* Animação para o efeito de rolagem */
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+h3 {
+    color:crimson; /*Cor do titulo */
+    font-size: 18px; /* Tamanho médio do texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove a margem padrão */
+}
+
+  </style>
+</head>
+<body>
+    <img scr="Logo-site"
+  <h1>NexuStealth</h1>
+  <h2>Welcome to our server</h2>
+  <p>This is a server designed to help you with technology stuff.</p><br>
+  <a href="/sobre" class="button">To Start</a><br>
+  <br>
+  <a href="/sobre-o-site"> Know About the Site</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3>NOTE: I am not responsible for anything you do on this site "Use with caution"</h3>
+
+</body>
+<script>
+
+</script>
+</html>

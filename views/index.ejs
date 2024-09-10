@@ -1,0 +1,142 @@
+<!-- views/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexuStealth</title> <!--titulo da pagina e nao oq fica no site-->
+  <link rel="stylesheet" href="/css/styles.css"> <!-- Link para o CSS -->
+  <style>
+/* styles.css */
+
+/* Define o fundo preto e o texto verde, estilo de fonte hacker */
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000; /* Cor de fundo preta */
+    color: #0f0; /* Cor do texto verde hack */
+    font-family: monospace; /* Fonte estilo hacker */
+    font-size: 18px; /* Tamanho médio do texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove a margem padrão */
+    font-family: Arial, sans-serif;
+
+    /* Para smartphones (largura máxima de 600px) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #f0f0f0; /* Cor de fundo específica para celular */
+    }
+
+    .container {
+        width: 100%; /* Ajusta o layout para ocupar toda a largura da tela */
+        padding: 10px;
+    }
+}
+
+/* Para tablets (largura entre 601px e 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: #e0e0e0; /* Cor de fundo específica para tablet */
+    }
+
+    .container {
+        width: 90%; /* Ocupa 90% da tela para tablets */
+        margin: auto;
+    }
+}
+
+/* Para desktops (largura acima de 1025px) */
+@media only screen and (min-width: 1025px) {
+    body {
+        background-color: #fff; /* Cor de fundo específica para desktop */
+    }
+
+    .container {
+        width: 80%; /* Ocupa 80% da tela para desktops */
+        margin: auto;
+    }
+}
+}
+
+/* Container que ocupa toda a tela */
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 18px; /* Tamanho médio do texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove a margem padrão */
+}
+
+/* Estilo dos números que vão rolar */
+.scrolling-numbers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    white-space: nowrap;
+    animation: scroll 5s linear infinite;
+}
+
+/* Estilo de cada número */
+.number {
+    line-height: 1.5;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+/* Animação para o efeito de rolagem */
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+h3 {
+    color:crimson; /*Cor do titulo */
+    font-size: 18px; /* Tamanho médio do texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove a margem padrão */
+}
+.logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 150px; /* Ajuste o tamanho conforme necessário */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+
+  </style>
+</head>
+<body>
+  <h1>NexuStealth</h1>
+  <h2>Bem-vindo ao Nosso server</h2>
+  <p>Este e um servidor desenvolvido para lhe ajudar com coisas de tecnologia</p><br>
+  <a href="/sobre" class="button">Começar</a><br>
+  <br>
+  <a href="/sobre-o-site"> Saber Sobre o Site </a>
+<br>
+<br>
+
+</div>
+<br>
+<br>
+<br>
+<h3>OBS: Não Me Responsabiliso Por Nada Que VC Fizer Neste Site "Use Com Cuidado"</h3>
+
+</body>
+<script>
+
+</script>
+</html>
